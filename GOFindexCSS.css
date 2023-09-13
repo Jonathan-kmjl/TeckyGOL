@@ -1,0 +1,150 @@
+
+body {
+    animation: backgroundAnimation 3s infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-color:#63d2ee; /* Start color */
+    }
+    50% {
+        background-color: #fff679; /* Middle color */
+    }
+    100% {
+        background-color: #63d2ee; /* End color */
+    }
+}
+
+
+
+.center-element {
+    
+    top: 50%;
+    left: 50%;
+    /*transform: translate(-50%, -50%);*/
+  }
+
+.center-text {
+    text-align: center;
+}
+
+.wordcharacter1{
+font-family: 'Handjet', cursive;
+
+font-size: 100px;  
+height: 130px;
+font-weight: 1000
+}
+
+.rectangle {
+    /*Control the width. It works only for block-level elements*/
+    width: 100%;
+    height: 300px;
+  
+    /*Set the maximum*/
+    max-width: 2000px;
+    max-height: 500px;
+  
+    /*Set the minimum */
+    min-width: 300px;
+    min-height: 150px;
+  }
+
+  .rectangle2 {
+    /*Control the width. It works only for block-level elements*/
+    width: 100%;
+    height: 300px;
+  
+    /*Set the maximum*/
+    max-width: 2000px;
+    max-height: 500px;
+  
+    /*Set the minimum */
+    min-width: 300px;
+    min-height: 150px;
+  }
+
+.center2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-weight: bold;
+    animation: colorChange 3s infinite; 
+}
+
+
+@keyframes colorChange {
+  0% {
+    color:#fff679;
+  }
+  50% {
+    color:#63d2ee;
+  }
+  100% {
+    color: #fff679;
+  }
+}
+
+.addPadding1{
+  padding-bottom:10px;
+  padding-top: 10px;
+}
+
+.btn-start{
+  background-color: #fff679;
+  font-size: 25px;
+  font-family: 'Handjet', cursive;
+}
+
+.btn-whiteBackground{
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 10;
+}
+.btn-blackBackground{
+
+  background-color: #ffffff;
+  font-size: 10;
+}
+.btn-randomGridLine{
+  background-color: #f02727;
+  color: #ffffff;
+  font-size: 10;
+}
+.btn-resetGridLine{
+  background-color: #6200ff;
+  color: #ffffff;
+  font-size: 10;
+  
+}
+.btn-stop{
+  background-color:#63d2ee;
+  font-size: 25px;
+  font-family: 'Handjet', cursive;
+}
+
+.header1{
+  font-size: 17px;
+}
+.header2{
+  font-size: 13px;
+}
+.bold{
+  font-weight: bold;
+  font-weight: 900;
+}
+.frontColor{
+  color: rgb(64, 7, 117);
+}
+#Random-game{
+  background-color: #2f00ff;
+  color: #ffffff;
+  border: #3cff00
+  
+
+}
+#reset-game{
+  background-color: #ffae00;
+  color: #ffffff;
+  font-size: 25px;
+}
